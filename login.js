@@ -4,6 +4,7 @@ function validate()
   var password=document.getElementById("password").Value;
   if(username=="admin" && password=="user")
   {
+   
     alert("login successful");
     return false;
   }
