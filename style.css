@@ -19,6 +19,7 @@ body {
   justify-content: space-between;
   box-shadow: 0 0 20px 6px #090b6f85;
 }
+
 @media (max-width: 980px) {
   .box-form {
     flex-flow: wrap;
