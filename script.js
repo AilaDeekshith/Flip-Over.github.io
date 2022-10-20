@@ -43,7 +43,6 @@ function matchCards(img1, img2) {
         disableDeck = false;
     }, 1200);
 }
-
 function shuffleCard() {
     matched = 0;
     disableDeck = false;
@@ -57,9 +56,7 @@ function shuffleCard() {
         card.addEventListener("click", flipCard);
     });
 }
-
-shuffleCard();
-    
+shuffleCard();   
 cards.forEach(card => {
     card.addEventListener("click", flipCard);
 });
